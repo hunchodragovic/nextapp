@@ -40,3 +40,44 @@ a {
     color-scheme: dark;
   }
 }
+button {
+  background: var(--foreground);
+  color: var(--background);
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background: var(--background);
+  color: var(--foreground);
+  border-bottom: 1px solid var(--foreground);
+}
+
+.navbar a {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: var(--foreground);
+  color: var(--background);
+}
