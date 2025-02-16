@@ -1,9 +1,10 @@
 import Link from "next/link";
 
-const Page = () => {
+const ComponentsPage = () => {
   return (
     <div>
-      <h1>Posts Page</h1>
+      <h1>Components Page</h1>
+      <p>This is the components page.</p>
       <Link href="/">
         <button>Take me to the main page</button>
       </Link>
@@ -11,4 +12,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ComponentsPage;
